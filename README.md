@@ -8,7 +8,7 @@ where inFileName.ext is a tab file you've saved from songster (use wget or save 
 
 current version requires to you change this line (line 162) to point at your lilypond executable, alternatively you could run lilypond using the outfile as source:
 
-#example writer=os.system('C:\\\\Users\\\\Herman Li\\\\Documents\\\\LilyPond\\\usr\\\\bin\\\\lilypond outfile.txt')
+#example writer=os.system('C:\\\\Users\\\\Herman Li\\\\Documents\\\\LilyPond\\\usr\\\\bin\\\\lilypond '+sys.argv[1]+'_outfile.txt')
 
 writer=os.system('lilypond '+sys.argv[1]+'_outfile.txt')
 
