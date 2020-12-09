@@ -2,11 +2,7 @@ This project takes guitar tabs as input and transposes them into sheet music.  C
 
 You'll need to install lilypond and add it to your path.  If there are issues you could adjust line 174 to point at your lilypond executable, or manually run lilypond against the .ly files that are produced.
 
-python -m pip install bs4
-
-python -m pip install requests
-
-python process.py url
+Usage: python process.py url
 
 There are some issues with chords/slides and some note combinations which will be worked on during a later release version.
 
