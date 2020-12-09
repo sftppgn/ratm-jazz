@@ -1,16 +1,10 @@
-This project takes guitar tabs as input and transposes them into sheet music.  Currently alto saxophone is supported.  It's farily simple to edit the key to accomodate a different instrument in the program, but not accessible through an external interface yet.
+This project takes guitar tabs as input and transposes them into sheet music.  Currently alto saxophone is supported.
 
-dependencies: lilypond
+You'll need to install lilypond and add it to your path.  If there are issues you could adjust line 174 to point at your lilypond executable, or manually run lilypond against the .ly files that are produced.
 
-usage: python tabs_to_sax0.1.py inFileName.ext
-
-where inFileName.ext is a tab file you've saved from songster (use wget or save source).
-
-current version requires to you change this line (line 162) to point at your lilypond executable, alternatively you could run lilypond using the outfile as source:
-
-#example writer=os.system('C:\\\\Users\\\\Herman Li\\\\Documents\\\\LilyPond\\\usr\\\\bin\\\\lilypond '+sys.argv[1]+'_outfile.txt')
-
-writer=os.system('lilypond '+sys.argv[1]+'_outfile.txt')
+python -m pip install bs4
+python -m pip install requests
+python process.py url
 
 There are some issues with chords/slides and some note combinations which will be worked on during a later release version.
 
