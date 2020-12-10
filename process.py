@@ -1,5 +1,5 @@
 #licensed under GPLv2
-#version 0.1 10/20/2020 Rob Allen
+#version 0.2 12/10/2020 Rob Allen
 
 #requirements for 1.0 release
 #complete duration todo (see below)
