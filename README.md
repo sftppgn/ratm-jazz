@@ -1,4 +1,4 @@
-This project creates jazz music from guitar tabs, inspired by the style of Charlie Parker.  Currently alto saxophone is supported.
+This project creates jazz sheet music from guitar tabs, inspired by the style of Charlie Parker.  Currently alto saxophone is supported.
 
 You'll need to install lilypond and add it to your path. If there are issues you could adjust line 174 to point at your lilypond executable, or manually run lilypond against the .ly files that are produced.
 
