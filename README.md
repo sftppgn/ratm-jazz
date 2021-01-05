@@ -14,4 +14,4 @@ This isn't suitable for orchestra use, but I sometimes use it as a starting poin
 
 Depending on the tab, everything might be perfect :)
 
-I included a few sample pdfs that were created with this program.
+I included a few sample pdfs that were created with this program in the outfiles directory.
